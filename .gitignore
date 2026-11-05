@@ -1,0 +1,39 @@
+# === Livres & supports sous droit d'auteur — JAMAIS dans le dépôt ===
+*.pdf
+*.epub
+*.mobi
+*.azw3
+/livres/
+/books/
+
+# === Secrets & credentials de lab ===
+*.kdbx
+*.pem
+*.key
+*.pfx
+*.ovpn
+*_wireguard.conf
+secrets/
+.env
+*.tfvars
+ludus-api-key*
+
+# === Artefacts de lab / gros binaires ===
+*.vmdk
+*.vdi
+*.qcow2
+*.iso
+*.ova
+*.vagrant/
+dumps/
+*.ntds
+*.dit
+
+# === Divers / OS / éditeurs ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+*.tmp
+__pycache__/

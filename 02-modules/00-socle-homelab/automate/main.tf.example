@@ -1,0 +1,42 @@
+# Exemple minimal — provisionner une VM de test sur Proxmox via Terraform.
+# Provider : bpg/proxmox. Adapte node_name, datastore, bridge, VLAN à ton infra.
+# Les secrets passent par des variables (terraform.tfvars, NON commité).
+
+terraform {
+  required_providers {
+    proxmox = {
+      source  = "bpg/proxmox"
+      version = "~> 0.60"   # vérifie la dernière version compatible
+    }
+  }
+}
+
+variable "pve_endpoint"  { type = string }                 # ex: https://10.10.0.2:8006/
+variable "pve_api_token" { type = string, sensitive = true } # ex: user@pam!tf=xxxxxxxx
+
+provider "proxmox" {
+  endpoint  = var.pve_endpoint
+  api_token = var.pve_api_token
+  insecure  = true   # lab uniquement (certificat auto-signé)
+}
+
+resource "proxmox_virtual_environment_vm" "test" {
+  name      = "tf-test-01"
+  node_name = "pve"          # nom de ton nœud Proxmox
+
+  cpu    { cores = 1 }
+  memory { dedicated = 1024 }
+
+  disk {
+    datastore_id = "local-zfs"
+    interface    = "scsi0"
+    size         = 10
+  }
+
+  network_device {
+    bridge  = "vmbr1"
+    vlan_id = 56             # VLAN de test isolé
+  }
+
+  # Pour une vraie VM : ajouter clone d'un template + cloud-init.
+}
