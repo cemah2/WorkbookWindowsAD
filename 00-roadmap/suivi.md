@@ -19,7 +19,7 @@ Légende : ⬜ à faire · 🟨 en cours · ✅ terminé
 - ✅ `17-ntlm-intro` (produit — à exécuter/valider sur le lab)
 
 ## Phase 2 — Administration
-- ⬜ `20-gpo` · ⬜ `21-ou-delegation` · ⬜ `22-tiering-eam` · ⬜ `23-groupes-agdlp`
+- ✅ `20-gpo` (produit — à exécuter/valider sur le lab) · ⬜ `21-ou-delegation` · ⬜ `22-tiering-eam` · ⬜ `23-groupes-agdlp`
 - ⬜ `24-laps` · ⬜ `25-dfs` · ⬜ `26-sites-replication` · ⬜ `27-rodc`
 - ⬜ `28-fsmo` · ⬜ `29-sauvegarde-pra`
 
