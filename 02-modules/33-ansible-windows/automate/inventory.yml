@@ -1,0 +1,13 @@
+all:
+  children:
+    domaincontrollers:
+      hosts:
+        par-dc-01.corp.meridian.com:
+    fileservers:
+      hosts:
+        par-fs-01.corp.meridian.com:
+  vars:
+    ansible_connection: winrm
+    ansible_winrm_transport: kerberos
+    ansible_port: 5985
+    ansible_winrm_server_cert_validation: ignore   # lab uniquement

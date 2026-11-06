@@ -25,7 +25,7 @@ Légende : ⬜ à faire · 🟨 en cours · ✅ terminé
 
 ## Phase 3 — Automatisation
 - ✅ `30-powershell-fondamentaux` (produit — à exécuter/valider sur le lab) · ⬜ `31-powershell-remoting` · ⬜ `32-dsc`
-- ⬜ `33-ansible-windows` · ⬜ `34-terraform-iac` · ⬜ `35-corp-en-une-commande`
+- ✅ `33-ansible-windows` (produit — à exécuter/valider sur le lab) · ⬜ `34-terraform-iac` · ⬜ `35-corp-en-une-commande`
 
 ## Phase 4 — PKI / AD CS
 - ⬜ `40-pki-conception` · ⬜ `41-adcs-deploiement` · ⬜ `42-templates-certificats` · ⬜ `43-adcs-esc`
