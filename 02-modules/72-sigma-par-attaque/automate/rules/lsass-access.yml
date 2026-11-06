@@ -1,0 +1,19 @@
+title: Accès mémoire suspect à LSASS (dump de credentials)
+id: 00000000-0000-0000-0000-000000000056
+status: experimental
+logsource:
+  product: windows
+  category: process_access
+detection:
+  selection:
+    TargetImage|endswith: '\lsass.exe'
+    GrantedAccess:
+      - '0x1010'
+      - '0x1410'
+      - '0x1438'
+      - '0x143a'
+  condition: selection
+level: high
+tags:
+  - attack.credential_access
+  - attack.t1003.001

@@ -40,7 +40,7 @@ Légende : ⬜ à faire · 🟨 en cours · ✅ terminé
 - ✅ `63-attaques-hybrides` (produit — à exécuter/valider sur le lab) · ⬜ `64-conditional-access-pim`
 
 ## Phase 7 — Blue team
-- ⬜ `70-collecte-logs-siem` · ⬜ `71-sysmon` · ⬜ `72-sigma-par-attaque`
+- ✅ `70-collecte-logs-siem` (produit — à exécuter/valider sur le lab) · ⬜ `71-sysmon` · ⬜ `72-sigma-par-attaque`
 - ⬜ `73-threat-hunting` · ⬜ `74-purple-team`
 
 ## Phase 8 — Internals & évasion
