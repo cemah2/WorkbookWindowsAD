@@ -1,0 +1,15 @@
+title: Certificat d'authentification émis pour un compte machine (possible ESC8)
+id: 00000000-0000-0000-0000-000000000043
+status: experimental
+logsource:
+  product: windows
+  service: security
+detection:
+  selection:
+    EventID: 4886
+    Requester|endswith: '$'
+  condition: selection
+level: high
+tags:
+  - attack.credential_access
+  - attack.t1649

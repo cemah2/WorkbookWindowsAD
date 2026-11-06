@@ -1,0 +1,15 @@
+title: Écriture de msDS-AllowedToActOnBehalfOfOtherIdentity (RBCD)
+id: 00000000-0000-0000-0000-000000000053
+status: experimental
+logsource:
+  product: windows
+  service: security
+detection:
+  selection:
+    EventID: 5136
+    AttributeLDAPDisplayName: 'msDS-AllowedToActOnBehalfOfOtherIdentity'
+  condition: selection
+level: high
+tags:
+  - attack.privilege_escalation
+  - attack.t1098

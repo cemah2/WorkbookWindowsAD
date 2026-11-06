@@ -1,0 +1,18 @@
+title: Possible Kerberoasting (TGS RC4 pour comptes utilisateurs)
+id: 00000000-0000-0000-0000-000000000052
+status: experimental
+logsource:
+  product: windows
+  service: security
+detection:
+  selection:
+    EventID: 4769
+    TicketEncryptionType: '0x17'
+  filter:
+    ServiceName|endswith: '$'
+  timeframe: 10m
+  condition: selection and not filter | count() by SubjectUserName > 10
+level: high
+tags:
+  - attack.credential_access
+  - attack.t1558.003
