@@ -24,7 +24,7 @@ Légende : ⬜ à faire · 🟨 en cours · ✅ terminé
 - ✅ `28-fsmo` (produit — à exécuter/valider sur le lab) · ⬜ `29-sauvegarde-pra`
 
 ## Phase 3 — Automatisation
-- ⬜ `30-powershell-fondamentaux` · ⬜ `31-powershell-remoting` · ⬜ `32-dsc`
+- ✅ `30-powershell-fondamentaux` (produit — à exécuter/valider sur le lab) · ⬜ `31-powershell-remoting` · ⬜ `32-dsc`
 - ⬜ `33-ansible-windows` · ⬜ `34-terraform-iac` · ⬜ `35-corp-en-une-commande`
 
 ## Phase 4 — PKI / AD CS
