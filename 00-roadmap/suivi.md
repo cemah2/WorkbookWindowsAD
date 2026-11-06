@@ -31,7 +31,7 @@ Légende : ⬜ à faire · 🟨 en cours · ✅ terminé
 - ✅ `40-pki-conception` (produit — à exécuter/valider sur le lab) · ⬜ `41-adcs-deploiement` · ⬜ `42-templates-certificats` · ⬜ `43-adcs-esc`
 
 ## Phase 5 — Offensif on-prem
-- ⬜ `50-methodologie` · ⬜ `51-recon-enumeration` · ⬜ `52-kerberoasting-asrep`
+- ✅ `50-methodologie` (produit — à exécuter/valider sur le lab) · ⬜ `51-recon-enumeration` · ⬜ `52-kerberoasting-asrep`
 - ⬜ `53-delegations-rbcd` · ⬜ `54-coercition-ntlm-relay` · ⬜ `55-shadow-credentials`
 - ⬜ `56-dump-credentials` · ⬜ `57-persistance` · ⬜ `58-cross-forest`
 
