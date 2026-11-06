@@ -11,12 +11,12 @@ Légende : ⬜ à faire · 🟨 en cours · ✅ terminé
 ## Phase 1 — Fondations
 - ✅ `10-windows-server-bases` (produit — à exécuter/valider sur le lab)
 - ✅ `11-dns` (produit — à exécuter/valider sur le lab)
-- ⬜ `12-dhcp`
+- ✅ `12-dhcp` (produit — à exécuter/valider sur le lab)
 - ✅ `13-adds-premier-dc` (produit — à exécuter/valider sur le lab)
 - ✅ `14-objets-ad` (produit — à exécuter/valider sur le lab)
-- ⬜ `15-ldap-bases`
-- ⬜ `16-kerberos-intro`
-- ⬜ `17-ntlm-intro`
+- ✅ `15-ldap-bases` (produit — à exécuter/valider sur le lab)
+- ✅ `16-kerberos-intro` (produit — à exécuter/valider sur le lab)
+- ✅ `17-ntlm-intro` (produit — à exécuter/valider sur le lab)
 
 ## Phase 2 — Administration
 - ⬜ `20-gpo` · ⬜ `21-ou-delegation` · ⬜ `22-tiering-eam` · ⬜ `23-groupes-agdlp`
