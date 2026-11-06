@@ -36,7 +36,7 @@ Légende : ⬜ à faire · 🟨 en cours · ✅ terminé
 - ✅ `56-dump-credentials` (produit — à exécuter/valider sur le lab) · ⬜ `57-persistance` · ⬜ `58-cross-forest`
 
 ## Phase 6 — Hybride / Entra
-- ⬜ `60-entra-fondamentaux` · ⬜ `61-entra-connect` · ⬜ `62-hybrid-join-sso`
+- ✅ `60-entra-fondamentaux` (produit — à exécuter/valider sur le lab) · ⬜ `61-entra-connect` · ⬜ `62-hybrid-join-sso`
 - ⬜ `63-attaques-hybrides` · ⬜ `64-conditional-access-pim`
 
 ## Phase 7 — Blue team
