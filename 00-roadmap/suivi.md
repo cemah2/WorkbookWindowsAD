@@ -45,7 +45,7 @@ Légende : ⬜ à faire · 🟨 en cours · ✅ terminé
 
 ## Phase 8 — Internals & évasion
 - ✅ `80-windows-internals` (produit — à exécuter/valider sur le lab) · ⬜ `81-tokens-privileges` · ⬜ `82-lsass-dpapi`
-- ⬜ `83-etw-amsi` · ⬜ `84-edr-comprehension-detection`
+- ✅ `83-etw-amsi` (produit — à exécuter/valider sur le lab) · ⬜ `84-edr-comprehension-detection`
 
 ## Phase 9 — Capstone
 - ⬜ `90-capstone-scenario` · ⬜ `91-server-2025-nouveautes`
