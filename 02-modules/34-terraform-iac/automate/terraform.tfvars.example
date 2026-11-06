@@ -1,0 +1,5 @@
+# Copier en terraform.tfvars (NON commité) et renseigner :
+pve_endpoint    = "https://10.10.0.2:8006/"
+pve_api_token   = "terraform@pam!tf=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+node_name       = "pve"
+win_template_id = 9000

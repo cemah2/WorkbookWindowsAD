@@ -1,0 +1,29 @@
+# Playbook d'exemple : durcissement léger + objets AD. Idempotent.
+- name: Serveurs de fichiers
+  hosts: fileservers
+  tasks:
+    - name: Rôle DFS Namespace présent
+      ansible.windows.win_feature:
+        name: FS-DFS-Namespace
+        state: present
+    - name: SMBv1 absent (durcissement)
+      ansible.windows.win_feature:
+        name: FS-SMB1
+        state: absent
+
+- name: Contrôleurs de domaine - objets AD
+  hosts: domaincontrollers
+  tasks:
+    - name: OU EMEA présente
+      microsoft.ad.ou:
+        name: EMEA
+        path: "OU=Employees,DC=corp,DC=meridian,DC=com"
+        state: present
+    - name: Utilisateur de test présent
+      microsoft.ad.user:
+        identity: test.ansible
+        firstname: Test
+        surname: Ansible
+        password: "{{ vault_user_pw | default('ChangeMe!123') }}"
+        path: "OU=EMEA,OU=Employees,DC=corp,DC=meridian,DC=com"
+        state: present
