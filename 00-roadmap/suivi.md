@@ -37,7 +37,7 @@ Légende : ⬜ à faire · 🟨 en cours · ✅ terminé
 
 ## Phase 6 — Hybride / Entra
 - ✅ `60-entra-fondamentaux` (produit — à exécuter/valider sur le lab) · ⬜ `61-entra-connect` · ⬜ `62-hybrid-join-sso`
-- ⬜ `63-attaques-hybrides` · ⬜ `64-conditional-access-pim`
+- ✅ `63-attaques-hybrides` (produit — à exécuter/valider sur le lab) · ⬜ `64-conditional-access-pim`
 
 ## Phase 7 — Blue team
 - ⬜ `70-collecte-logs-siem` · ⬜ `71-sysmon` · ⬜ `72-sigma-par-attaque`
