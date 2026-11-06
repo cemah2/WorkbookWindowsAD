@@ -41,7 +41,7 @@ Légende : ⬜ à faire · 🟨 en cours · ✅ terminé
 
 ## Phase 7 — Blue team
 - ✅ `70-collecte-logs-siem` (produit — à exécuter/valider sur le lab) · ⬜ `71-sysmon` · ⬜ `72-sigma-par-attaque`
-- ⬜ `73-threat-hunting` · ⬜ `74-purple-team`
+- ✅ `73-threat-hunting` (produit — à exécuter/valider sur le lab) · ⬜ `74-purple-team`
 
 ## Phase 8 — Internals & évasion
 - ⬜ `80-windows-internals` · ⬜ `81-tokens-privileges` · ⬜ `82-lsass-dpapi`
