@@ -9,10 +9,10 @@ Légende : ⬜ à faire · 🟨 en cours · ✅ terminé
 - 🟨 `00-socle-homelab` (contenu initial produit — à exécuter et valider sur ton Proxmox)
 
 ## Phase 1 — Fondations
-- ⬜ `10-windows-server-bases`
+- ✅ `10-windows-server-bases` (produit — à exécuter/valider sur le lab)
 - ⬜ `11-dns`
 - ⬜ `12-dhcp`
-- ⬜ `13-adds-premier-dc`
+- ✅ `13-adds-premier-dc` (produit — à exécuter/valider sur le lab)
 - ⬜ `14-objets-ad`
 - ⬜ `15-ldap-bases`
 - ⬜ `16-kerberos-intro`
