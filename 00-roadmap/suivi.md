@@ -33,7 +33,7 @@ Légende : ⬜ à faire · 🟨 en cours · ✅ terminé
 ## Phase 5 — Offensif on-prem
 - ✅ `50-methodologie` (produit — à exécuter/valider sur le lab) · ⬜ `51-recon-enumeration` · ⬜ `52-kerberoasting-asrep`
 - ✅ `53-delegations-rbcd` (produit — à exécuter/valider sur le lab) · ⬜ `54-coercition-ntlm-relay` · ⬜ `55-shadow-credentials`
-- ⬜ `56-dump-credentials` · ⬜ `57-persistance` · ⬜ `58-cross-forest`
+- ✅ `56-dump-credentials` (produit — à exécuter/valider sur le lab) · ⬜ `57-persistance` · ⬜ `58-cross-forest`
 
 ## Phase 6 — Hybride / Entra
 - ⬜ `60-entra-fondamentaux` · ⬜ `61-entra-connect` · ⬜ `62-hybrid-join-sso`
