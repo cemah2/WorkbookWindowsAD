@@ -44,7 +44,7 @@ Légende : ⬜ à faire · 🟨 en cours · ✅ terminé
 - ✅ `73-threat-hunting` (produit — à exécuter/valider sur le lab) · ⬜ `74-purple-team`
 
 ## Phase 8 — Internals & évasion
-- ⬜ `80-windows-internals` · ⬜ `81-tokens-privileges` · ⬜ `82-lsass-dpapi`
+- ✅ `80-windows-internals` (produit — à exécuter/valider sur le lab) · ⬜ `81-tokens-privileges` · ⬜ `82-lsass-dpapi`
 - ⬜ `83-etw-amsi` · ⬜ `84-edr-comprehension-detection`
 
 ## Phase 9 — Capstone
