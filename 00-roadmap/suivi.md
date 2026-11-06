@@ -10,10 +10,10 @@ Légende : ⬜ à faire · 🟨 en cours · ✅ terminé
 
 ## Phase 1 — Fondations
 - ✅ `10-windows-server-bases` (produit — à exécuter/valider sur le lab)
-- ⬜ `11-dns`
+- ✅ `11-dns` (produit — à exécuter/valider sur le lab)
 - ⬜ `12-dhcp`
 - ✅ `13-adds-premier-dc` (produit — à exécuter/valider sur le lab)
-- ⬜ `14-objets-ad`
+- ✅ `14-objets-ad` (produit — à exécuter/valider sur le lab)
 - ⬜ `15-ldap-bases`
 - ⬜ `16-kerberos-intro`
 - ⬜ `17-ntlm-intro`
