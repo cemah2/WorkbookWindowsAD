@@ -1,0 +1,13 @@
+; CAPolicy.inf pour l'ISSUING CA (Enterprise Subordinate). À placer dans C:\Windows\CAPolicy.inf
+[Version]
+Signature="$Windows NT$"
+
+[Certsrv_Server]
+RenewalKeyLength=4096
+RenewalValidityPeriod=Years
+RenewalValidityPeriodUnits=5
+CRLPeriod=Weeks
+CRLPeriodUnits=1
+CRLDeltaPeriod=Days
+CRLDeltaPeriodUnits=1
+LoadDefaultTemplates=0

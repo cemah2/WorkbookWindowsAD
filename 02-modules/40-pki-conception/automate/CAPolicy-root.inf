@@ -1,0 +1,14 @@
+; CAPolicy.inf pour la ROOT CA (standalone, hors-ligne). À placer dans C:\Windows\CAPolicy.inf
+[Version]
+Signature="$Windows NT$"
+
+[Certsrv_Server]
+RenewalKeyLength=4096
+RenewalValidityPeriod=Years
+RenewalValidityPeriodUnits=15
+CRLPeriod=Years
+CRLPeriodUnits=1
+CRLDeltaPeriod=Days
+CRLDeltaPeriodUnits=0
+; Pas de services réseau pour une root hors-ligne
+LoadDefaultTemplates=0

@@ -28,7 +28,7 @@ Légende : ⬜ à faire · 🟨 en cours · ✅ terminé
 - ✅ `33-ansible-windows` (produit — à exécuter/valider sur le lab) · ⬜ `34-terraform-iac` · ⬜ `35-corp-en-une-commande`
 
 ## Phase 4 — PKI / AD CS
-- ⬜ `40-pki-conception` · ⬜ `41-adcs-deploiement` · ⬜ `42-templates-certificats` · ⬜ `43-adcs-esc`
+- ✅ `40-pki-conception` (produit — à exécuter/valider sur le lab) · ⬜ `41-adcs-deploiement` · ⬜ `42-templates-certificats` · ⬜ `43-adcs-esc`
 
 ## Phase 5 — Offensif on-prem
 - ⬜ `50-methodologie` · ⬜ `51-recon-enumeration` · ⬜ `52-kerberoasting-asrep`
